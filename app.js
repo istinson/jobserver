@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
 mongoose.connect(config.getDbConnectionString(), {});
 
 app.use(express.static(`${__dirname}/public`));
+api(app);
 
 app.listen(port);
 console.log(`listening on port ${port}`);

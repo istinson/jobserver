@@ -5,3 +5,4 @@ module.exports = {
 		return `mongodb://${configVars.user}:${configVars.pass}@ds019756.mlab.com:19756/jobwatcher`;
 	}
 };
+
